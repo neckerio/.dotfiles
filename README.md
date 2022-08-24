@@ -1,1 +1,4 @@
 # Configs
+
+## Objective
+* Easy configs
