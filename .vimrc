@@ -34,6 +34,7 @@ map <Right> :set spelllang=ru_ru<CR>
 "FIX: need to find a dictionary for RU.
 
 
+
 "PLUGS
 call plug#begin('~/.vim/plugged')
 

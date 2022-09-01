@@ -91,8 +91,11 @@ export OPENER=vim
 # add bin to path
 export PATH=$PATH:~/bin
 
+# add XDG_CONFIG_HOME
+export XDG_CONFIG_HOME=~/.config
+
 # nnn env vars
-source ~/.config/nnn/nnn.config
+# source ~/.config/nnn/nnn.config
 
 # ZSH-SYNTAX-HIGHLIGHTING
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
