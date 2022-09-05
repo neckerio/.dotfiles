@@ -200,3 +200,5 @@ augroup jenkins_as_groovy
 	au!
 	au BufNewFile,BufRead *.jenkinsfile,*.Jenkinsfile,Jenkinsfile,jenkinsfile setf groovy
 augroup END
+
+autocmd FileType groovy setlocal ai ts=2 sw=2 et
