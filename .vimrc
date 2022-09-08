@@ -194,7 +194,12 @@ nnoremap <leader>j :m .+1<CR>==
 
 "AUTOCMDs for Specific Filetypes
 autocmd FileType yaml setlocal ai ts=2 sw=2 et
-autocmd FileType terraform setlocal autoread nnoremap <leader>f :!terraform fmt %<CR> l <CR>
+
+augroup terraform
+	au!
+	autocmd FileType terraform setlocal autoread 
+	nnoremap <leader>f :!terraform fmt %<CR> L <CR>
+augroup end
 
 augroup jenkins_as_groovy
 	au!
