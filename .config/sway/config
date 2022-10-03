@@ -38,6 +38,8 @@ bindsym --to-code $mod+comma exec /sbin/mpc seek -00:00:10
 bindsym --to-code $mod+e exec $term -e neomutt
 bindsym --to-code $mod+m exec $term -e vim ~/vimwiki/index.md
 bindsym --to-code $mod+s exec $term -e lf
+bindsym --to-code $mod+g exec grimshot save active
+bindsym --to-code $mod+Shift+g exec grimshot save area
 
 
 
