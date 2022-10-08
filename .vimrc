@@ -168,7 +168,7 @@ nnoremap <leader>gi :Git rebase -i<CR>
 nnoremap <leader>gw :Gwrite<CR>
 nnoremap <leader>gr :Gread<CR>
 nnoremap <leader>gm :Gmove
-nnoremap <leader>grm :Gremove<CR>
+nnoremap <leader>grm :GRemove<CR>
 nnoremap <leader>gb :Git blame<CR>
 nnoremap <leader>gl  :Git log<CR>
 nnoremap <leader>ge :Gedit :0<CR>
