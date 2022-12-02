@@ -76,11 +76,11 @@ let g:ale_floating_window_border = ['│', '─', '╭', '╮', '╯', '╰', '�
 set pumheight=10
 autocmd ColorScheme * highlight pmenu guibg=#282828 gui=bold
 
-" inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
-" inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+ inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
+ inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 inoremap <expr> <cr>    pumvisible() ? asyncomplete#close_popup() : "\<cr>"
-inoremap <expr> j ((pumvisible())?("\<C-n>"):("j"))
-inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
+"inoremap <expr> j ((pumvisible())?("\<C-n>"):("j"))
+"inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
 
 
 
